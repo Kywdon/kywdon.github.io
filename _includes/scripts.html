@@ -1,6 +1,17 @@
 
 <script src="{{ "/js/jquery.min.js" | prepend: site.domain }}"></script>
-<script src="{{ "/js/foundation.min.js" | prepend: site.domain }}"></script>
+<script src="{{ "/js/jquery.bpopup.min.js" | preprend: site.domain }}"></script>
+<script src="{{ "/js/reveal.min.js" | prepend: site.domain }}"></script>
 <script>
-    $(document).foundation();
+	Reveal.initialize({history:true,transition:'linear',parallaxBackgroundImage:'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'});
+	Reveal.configure({
+		keyboard: {
+		13:function(){ window.location.hash = $('.fragment.current-fragment a').attr('href'); },
+		37:null,
+		38:function(){ if($('.fragment.visible').size() === 1) { $('.fragment.visible').removeClass('visible current-fragment'); $('.fragment').addClass('visible'); $('.fragment.visible').last().addClass('current-fragment');} else { Reveal.up() }; },
+		39:null,
+		40:function(){ if($('.fragment').size()-1 === $('.fragment.visible').last().data('fragment-index')) { $('.fragment.visible').removeClass('visible current-fragment'); $('.fragment').first().addClass('visible current-fragment');} else {Reveal.down()}; },
+		}
+	});
+	$('.fragment').on('mouseover', function(){ $('.fragment.visible').removeClass('visible current-fragment'); $('.fragment.visible').removeClass('visible current-fragment'); $(this).addClass('current-fragment visible').prevAll().addClass('visible');  });
 </script>

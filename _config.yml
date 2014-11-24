@@ -1,9 +1,10 @@
 # Site settings
-title: "Quentin GERODEL"
-author: "Quentin GERODEL"
+title: "Mathias MERCIER"
+author: "Mathias MERCIER"
 baseurl: ""
-domain: "http://swizz540.github.io"
+domain: "" 
 
+# http://kywdon.github.io
 # Build settings
 markdown: kramdown
 permalink: pretty
