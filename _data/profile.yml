@@ -1,17 +1,13 @@
-name: Quentin GERODEL
+name: Mathias MERCIER
 
-#Fix desc size
-description: "Autodidacte en informatique depuis l'âge de mes quatorze ans, je suis depuis toujours passionné de nouvelles technologies.
-Titulaire d'un diplôme d'électronicien, je me suis ensuite concentré sur le développement.
-J'ai la chance de pouvoir être actuellement en première année en apprentissage au sein de l'Ecole d'Ingénieur du Numérique : Telecom Nancy.
-Participant à de nombreux projets seul ou en groupe, je me définis comme étant partisan du Libre."
-max: 155
+age : 20
 
-picture: /img/profile_pic.jpg
+mail : mercier.mathias.offi@gmail.com
 
-email: quentin.gerodel@telecomnancy.eu
-email-slug: quentin[dot]gerodel[at]telecomnancy[dot]eu
+mailgaming : kywdon@gmail.com
 
-github: Swizz540
+tel : +336.42.56.94.28
 
-twitter: Swizz540
+quote : "Passionné de jeux vidéos, de jeux de société, et de jeux de rôle en général, je cherche actuellement
+à intégrer le monde vidéo-ludique dans la conception de jeu, le Game Design"
+
