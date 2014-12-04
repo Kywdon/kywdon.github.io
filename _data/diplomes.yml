@@ -1,0 +1,17 @@
+- name: Licence professionnelle Techniques et Activités de l'Image et du Son (TAIS)
+  annee:2015
+  option: Conception Multimédia
+  description: "En LP TAIS, l'on ne se focalise pas vraiment sur un corps de métier. J'ai pu y apprendre aussi bien à faire de la modélisation 3D, de la scénarisation, du montage, de l'intégration sonore, du web design ou bien même de la réalisation vidéo."
+  lieu : IUT Chalon-sur-Saône
+  
+- name: Brevet de Technicien Supérieur : Services Informatiques aux Organisations (SIO)
+  annee:2014
+  option: Solutions Logicielles Application Métier (SLAM)
+  description: "C'est là que j'ai appris le développement et ses techniques. L'on a aussi bien abordé le développement dans le cadre d'applicatif logiciel que web, les techniques de développement tels que la programmation orientée objet (POO), ou des techniques de management (type Scrum)"
+  lieu : Lycée Frédéric Chopin Nancy
+  
+- name: Baccalauréat Scientifique - Mention Bien
+  annee: 2012
+  option: Sciences de l'ingénieur
+  description: "N'étant pas très porté sur les sciences et vie de la terre, j'ai décidé après le collège d'intégrer le seul lycée de ma ville qui proposait un autre programme ; c'est là que j'ai découvert les sciences de l'ingénieur, où j'ai pu pratiquer développement, méchanique et électronique"
+  lieu: Lycée Henri Loritz Nancy

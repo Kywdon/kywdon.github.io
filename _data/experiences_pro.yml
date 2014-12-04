@@ -1,0 +1,19 @@
+- name: Stage 1ère année BTS - DEFI Informatique
+  society : DEFI Informatique
+  context : "Dans le cadre de mon tout premier stage dans le développement, je suis entré dans une société qui effectuait du développement logiciel sous Windev. On m'a confié la tâche, car leur système de résolution d'incident client était mal organisé, de trouver un moyen de résoudre ceci. J'ai alors réorganisé leur base de donnée client afin de pouvoir y adapter le nouveau système de ticket qui était alors lié à une interface web intranet que j'avais réalisé"
+  skills : HTML, PHP, CSS, SQL
+  weblink :
+  
+- name: Stage 2nd année BTS - Association DAELI
+  society : DAELI
+  context : "Suite à mon désir de voir naître un de mes projets sous forme de jeu vidéo, j'ai décidé de motiver certains de mes camarades de classe pour que nous créions notre propre association pour être stagiaire au sein de cette dernière. Après avoir présenté un projet détaillé, avec un dossier d'environ 60 pages, nous avons obtenu l'autorisation et avons donc développé le jeu en question. J'étais alors en charge de la modification du jeu de base pour en faire l'adaptation, ainsi que de la conception de l'interface utilisateur, et du management du groupe."
+  skills : C++, GitHub, Management, Conception jeu, Analyse game mechanics
+  weblink :
+  
+
+- name: Licence Pro TAIS - Projet Plateforme Technique
+  society : Valmold Services
+  context : "Au sein de la licence TAIS j'ai été groupé avec des camarades sur un projet pour un vrai client, à savoir l'entreprise Valmold Services, pour laquelle nous avons du réaliser une vidéo promotionnelle. Sur ce projet je me suis alors occupé à la fois de la réalisation, de la capture d'images et de la scénarisation."
+  skills : Cadrage, Réalisation vidéo, Scénarisation, Montage
+  weblink :
+  
