@@ -1,0 +1,27 @@
+- name: Projet Role Paper Game "Seconde Chance"
+  weblink :
+  hours : Environ 6 heures
+  type : Création JDR Papier
+  video :
+  description : "Ceci est un projet pour mes camarades et moi même pendant nos années de BTS, où nous cherchions à divertir nos soirées entre deux projets de code. On était tous fan de RPG et nous avions passé une année d'initiation au JDR Papier tel que Call of Chtulu ou bien Dungeon & Dragons. On a eu donc le plaisir de faire une petite partie de ce JDR futuriste, qui fonctionnait très bien à quelques petits soucis d'équilibrage près. N'hésitez pas à le télécharger et l'adapter, il est plutôt accessible !"
+
+- name: Scénario Call of Chtulu "La mine aux cadavres"
+  weblink :
+  hours : 8 heures à la louche
+  type : Création scénario
+  video :
+  description : "Petit scénario préparé et créé par mes soins. Une sorte de test d'écriture et de scénarisation que nous avons testé par la suite à une soirée Call of Chtulu à 6 personnes, et qui a très très bien marché. Les règles de l'édition de base on été modifiée pour des soucis de scénario et d'accessibilité"
+
+- name: Projet WESTARV
+  weblink :
+  hours : Une dizaine d'heure à la conception du jeu et de ses mécaniques, plus environ cinq heures pour déterminer son adaptation en jeu vidéo
+  type : Création JDR Papier + Adaptation en jeu vidéo
+  video :
+  description : "Un des plus gros projets jusqu'alors fait ; j'avais créé en 2010 avec un ami un JDR Papier nommé alors 'Call of Brains' qui était trop difficile d'accès à cause des nombreux calculs à effectuer. Il était nécessaire aux joueurs d'avoir une calculatrice pour effectuer tout les calculs lors d'une phase de jeu, ce qui était rapidement très lourd. C'est pourquoi, après une année de BTS en développement j'ai proposé à mes camarades d'en faire l'adaptation en jeu vidéo. Je me suis alors occupé de la transmission du gameplay du jeu en quelque chose d'agréable, et ait imaginé une interface qui coinciderait avec ce dernier. Le projet n'a malheureusement pas abouti, car nous étions alors 4 développeurs et un manager-concepteur (moi même) et que le travail était encore bien trop important pour le boucler en quelques semaines. Le projet est donc malheureusement abandonné, mais le jeu papier existe toujours."
+
+- name: Développement CV Web
+  weblink :
+  hours : ?????
+  type : Création et développement web
+  video :
+  description : "Trouvant que mon curriculum vitae manquait de punch dans son format papier, je me suis décidé à faire quelque chose d'un peu plus relativ à mon univers, à savoir le jeu vidéo. C'est là qu'est venu l'idée d'utiliser mes compétences dans le web pour faire un site statique sous la forme d'un jeu, qui permettrait à tout lecteur de découvrir mon monde et mes passions."
