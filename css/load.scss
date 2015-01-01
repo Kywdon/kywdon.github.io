@@ -1,0 +1,21 @@
+---
+# Scss file for load
+---
+
+#load {
+	h1 {
+		color: red;
+	}
+	.cadre {
+		height : 80%;
+		width : 600px;
+		margin : auto;
+	}
+
+	@media screen and (max-width: 35.5em) {
+		.cadre {
+			width : 100%;
+		}
+	}
+	
+}
