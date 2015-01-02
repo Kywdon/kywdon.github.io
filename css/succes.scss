@@ -3,6 +3,7 @@
 ---
 @import "/css/libs/purecss.min.css";
 @import "/css/libs/purecss-grids-responsive.min.css";
+@import "/css/libs/magnific-popup.css";
 @import "/css/fixes.css";
 
 $item-width: 8em;
@@ -23,27 +24,40 @@ $item-height: 8em;
         border-color: hsla(0, 0%, 0%, 0.3);
         background: #9C0;
         box-sizing: border-box;
+        text-decoration: none;
+        color: black;
 
-        &.w1 {
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &.w1, &.w1.h1 {
             width: $item-width*1;
             background: #9C0;
         }
-        &.w2 {
+        &.w2, &.w2.h1 {
             width: $item-width*2;
             background: #C09;
         }
 
-        &.h1 {
+        &.h1, &.h1.w1 {
             height: $item-height*1;
             background: #9C0;
         }
-        &.h2 {
+        &.h2, &.h2.w1 {
             height: $item-height*2;
             background: #C90;
         }
 
         &.h2.w2 {
             background: #0C9;
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+
+        h1 {
+            font-size: 1em;
         }
 
     }
