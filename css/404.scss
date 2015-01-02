@@ -3,16 +3,14 @@
 ---
 @import "/css/libs/purecss.min.css";
 @import "/css/libs/purecss-grids-responsive.min.css";
-
-html, body, .pure-g, .pure-g > div {
-    height: 100%;
-}
-
+@import "/css/fixes.css";
 
 #p404 {
     background-color: #FDF9CA;
 
     #container {
+        height: 100%;
+
         #lapinou {
             background-image: url('/img/bg.jpg');
             background-repeat: no-repeat;
