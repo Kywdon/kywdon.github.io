@@ -13,16 +13,17 @@ html, body, .pure-g, .pure-g > div {
     background-color: #FDF9CA;
 
     #container {
-        background-image: url('/img/bg.jpg');
-        background-repeat: no-repeat;
-        background-position-x: 50%;
-        background-size: 40%;
-
+        #lapinou {
+            background-image: url('/img/bg.jpg');
+            background-repeat: no-repeat;
+            background-position-x: 50%;
+            background-size: contain;
+            height: 50%;
+        }
 
         #helpers {
             margin: auto;
             position: relative;
-            top: 60%;
             width: 50%;
             text-align: center;
 
@@ -73,6 +74,7 @@ html, body, .pure-g, .pure-g > div {
 
             .pure-button {
                 background: #FFDC76;
+                margin-bottom: 5px;
 
                 &:hover {
                     background: #FCC261;
