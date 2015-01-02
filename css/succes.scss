@@ -3,8 +3,48 @@
 ---
 @import "/css/libs/purecss.min.css";
 @import "/css/libs/purecss-grids-responsive.min.css";
+@import "/css/fixes.css";
 
+$item-width: 8em;
+$item-height: 8em;
 
 #succes{
+    background-color: #002F2F;
 
+    .grid-sizer {
+        width: $item-width;
+        height: $item-height;
+    }
+
+    .item {
+        width: $item-width;
+        height: $item-height;
+        border: 4px solid #333;
+        border-color: hsla(0, 0%, 0%, 0.3);
+        background: #9C0;
+        box-sizing: border-box;
+
+        &.w1 {
+            width: $item-width*1;
+            background: #9C0;
+        }
+        &.w2 {
+            width: $item-width*2;
+            background: #C09;
+        }
+
+        &.h1 {
+            height: $item-height*1;
+            background: #9C0;
+        }
+        &.h2 {
+            height: $item-height*2;
+            background: #C90;
+        }
+
+        &.h2.w2 {
+            background: #0C9;
+        }
+
+    }
 }
