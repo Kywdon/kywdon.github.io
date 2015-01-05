@@ -1,31 +1,40 @@
 ---
 # Scss file for load
 ---
+
+@font-face {
+    font-family: rpg_font;
+    src: url(fonts/Early_GameBoy.ttf);
+}
+
 html{
 	height : 100%;
+	
 }
 
 #load {
-
+	
+	
 	height : 100%;
 	overflow : hidden;
 	margin : 0;
 	padding : 0 20px 0 0;
 	vertical-align : middle;
+	background-image: url(../img/fond_load.jpg);
 
 	h1 {
 		color: red;
 		margin : 0;
 	}
 	h2 {
-		margin : 0.3em;
+		margin : 0.3em 0em 0em 1em;
 	}
 	h3 {
-		margin : 0.2em;
+		margin : 0.3em 0em 0em 2em
 	}
 	
 	#container {
-		background :red;
+		background : #000093;
 		height : 70%;
 		width : 650px;
 		margin : auto;
@@ -35,25 +44,48 @@ html{
 		left : 0;
 		position : absolute;
 		overflow : auto;
+		border : 5px double #FFFFC4;
+		border-radius : 10px;
 	}
 	
 	.experience {
 		height : 30%;
 		background : blue;
 		margin : 5px;
-		border : 2px double white;
+		border : 2px solid white;
+		border-radius : 5px;
 		overflow : hidden;
+		font-family : rpg_font;
+		font-size : 0.7em;
+		color : white;
+		
+		hr {
+			padding: 0;
+			height : 5px;
+			border: none;
+			border-top: medium double #FFFFFF;
+			color: #FFFFFF;
+			text-align: center;
+		}
+		
+		hr:after {
+			content: "ssssss";
+			display: inline-block;
+			position: relative; 
+			top: -0.7em;  
+			padding: 0 0.25em;
+		}	
 		
 	}
 	
 	.infos {
-		font-size : 1em;
 		color : green;
 		margin-top : 0.3em;
-		margin-left : 0.4em;
+		margin-left : 0.5em;
 	}
 	
 	.description {
+		margin-left : 5em;
 	
 	}
 	
