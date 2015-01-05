@@ -18,7 +18,7 @@ html{
 	margin : 0;
 	padding : 0 20px 0 0;
 	vertical-align : middle;
-	background-image : url(../img/fond_load.jpg);
+	background : #3366FF;
 
 	h2 {
 		margin : 0.3em 0em 0em 1em;
@@ -27,7 +27,6 @@ html{
 	
 	h2:hover {
 		color : #FFFF00;
-		zoom : 110%;
 	}
 	
 	h3 {
@@ -37,11 +36,10 @@ html{
 	
 	h3:hover {
 		color : #FFFF00;
-		zoom : 110%;
 	}
 	
 	#container {
-		background : #000093;
+		background : #2E5CE6;
 		margin : auto;
 		top : 0;
 		right : 0;
@@ -57,7 +55,7 @@ html{
 	
 	.experience {
 		height : 45%;
-		background : blue;
+		background : #1E3B93;
 		margin : 5px;
 		border : 2px solid white;
 		border-radius : 5px;
@@ -92,7 +90,6 @@ html{
 	
 	.infos:hover {
 		color : #94B84D;
-		zoom : 110%;
 	}
 	
 	.description {
@@ -101,8 +98,6 @@ html{
 	
 	.description:hover {
 		color : #FFFF00;
-		zoom : 110%;
-		margin-left : 3em;
 	}
 	
 	
