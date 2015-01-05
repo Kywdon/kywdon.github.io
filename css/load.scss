@@ -9,47 +9,56 @@
 
 html{
 	height : 100%;
-	
 }
 
 #load {
-	
 	
 	height : 100%;
 	overflow : hidden;
 	margin : 0;
 	padding : 0 20px 0 0;
 	vertical-align : middle;
-	background-image: url(../img/fond_load.jpg);
+	background-image : url(../img/background/fond_load.jpg);
 
 	h1 {
-		color: red;
+		color : red;
 		margin : 0;
 	}
 	h2 {
 		margin : 0.3em 0em 0em 1em;
 	}
+	
+	h2:hover {
+		color : #FFFF00;
+		zoom : 110%;
+	}
+	
 	h3 {
 		margin : 0.3em 0em 0em 2em
 	}
 	
+	h3:hover {
+		color : #FFFF00;
+		zoom : 110%;
+	}
+	
 	#container {
 		background : #000093;
-		height : 70%;
-		width : 650px;
 		margin : auto;
 		top : 0;
 		right : 0;
 		bottom : 0;
 		left : 0;
 		position : absolute;
-		overflow : auto;
 		border : 5px double #FFFFC4;
 		border-radius : 10px;
+		height : 100%;
+		width : 100%;
+		overflow : auto;
 	}
 	
 	.experience {
-		height : 30%;
+		height : 50%;
 		background : blue;
 		margin : 5px;
 		border : 2px solid white;
@@ -75,28 +84,38 @@ html{
 			top: -0.7em;  
 			padding: 0 0.25em;
 		}	
+	}
 		
+	.infos {
+		color : #669900;
+		margin-top : 0.6em;
+		margin-left : 1em;
 	}
 	
-	.infos {
-		color : green;
-		margin-top : 0.3em;
-		margin-left : 0.5em;
+	.infos:hover {
+		color : #94B84D;
+		zoom : 110%;
 	}
 	
 	.description {
 		margin-left : 5em;
-	
 	}
 	
-	@media screen and (max-width: 35.5em) {
+	.description:hover {
+		color : #FFFF00;
+		zoom : 110%;
+		margin-left : 3em;
+	}
+	
+	@media screen and (min-width: 35.5em) {
 		#container {
-			height : 100%;
-			width : 100%;
+			height : 70%;
+			width : 650px;
 			overflow : auto;
 		}
+		
 		.experience {
-			height : 50%;
+			height : 30%;
 		}
 	}	
 }
