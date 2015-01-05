@@ -1,17 +1,17 @@
-- name: Licence professionnelle Techniques et Activités de l'Image et du Son (TAIS)
+- name: Licence professionnelle Techniques et Activites de l'Image et du Son TAIS
   annee: 2015
-  option: Conception Multimédia
-  description: "En LP TAIS, l'on ne se focalise pas vraiment sur un corps de métier. J'ai pu y apprendre aussi bien à faire de la modélisation 3D, de la scénarisation, du montage, de l'intégration sonore, du web design ou bien même de la réalisation vidéo."
-  lieu : IUT Chalon-sur-Saône
+  option: Conception Multimedia
+  description: "En LP TAIS, l'on ne se focalise pas vraiment sur un corps de metier. J'ai pu y apprendre aussi bien a faire de la modelisation 3D, de la scenarisation, du montage, de l'integration sonore, du web design ou bien meme de la realisation video."
+  lieu : IUT Chalon-sur-Saone
   
-- name: Brevet de Technicien Supérieur Services Informatiques aux Organisations (SIO)
+- name: Brevet de Technicien Superieur Services Informatiques aux Organisations SIO
   annee: 2014
-  option: Solutions Logicielles Application Métier (SLAM)
-  description: "C'est là que j'ai appris le développement et ses techniques. L'on a aussi bien abordé le développement dans le cadre d'applicatif logiciel que web, les techniques de développement tels que la programmation orientée objet (POO), ou des techniques de management (type Scrum)"
-  lieu : Lycée Frédéric Chopin Nancy
+  option: Solutions Logicielles Application Metier SLAM
+  description: "C'est la que j'ai appris le developpement et ses techniques. L'on a aussi bien aborde le developpement dans le cadre d'applicatif logiciel que web, les techniques de developpement telles que la programmation orientee objet POO, ou des techniques de management type Scrum"
+  lieu : Lycee Frederic Chopin Nancy
   
-- name: Baccalauréat Scientifique - Mention Bien
+- name: Baccalaureat Scientifique  Mention Bien
   annee: 2012
-  option: Sciences de l'ingénieur
-  description: "N'étant pas très porté sur les sciences et vie de la terre, j'ai décidé après le collège d'intégrer le seul lycée de ma ville qui proposait un autre programme ; c'est là que j'ai découvert les sciences de l'ingénieur, où j'ai pu pratiquer développement, méchanique et électronique"
-  lieu: Lycée Henri Loritz Nancy
+  option: Sciences de l'ingenieur
+  description: "N'etant pas tres porte sur les sciences et vie de la terre, j'ai decide apres le college d'integrer le seul lycee de ma ville qui proposait un autre programme ; c'est la que j'ai decouvert les sciences de l'ingenieur, ou j'ai pu pratiquer developpement, mechanique et electronique"
+  lieu: Lycee Henri Loritz Nancy

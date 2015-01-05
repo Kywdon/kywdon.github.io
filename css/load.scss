@@ -20,12 +20,9 @@ html{
 	vertical-align : middle;
 	background-image : url(../img/fond_load.jpg);
 
-	h1 {
-		color : red;
-		margin : 0;
-	}
 	h2 {
 		margin : 0.3em 0em 0em 1em;
+		font-size : 1.2em;
 	}
 	
 	h2:hover {
@@ -58,14 +55,14 @@ html{
 	}
 	
 	.experience {
-		height : 50%;
+		height : 45%;
 		background : blue;
 		margin : 5px;
 		border : 2px solid white;
 		border-radius : 5px;
 		overflow : hidden;
 		font-family : rpg_font;
-		font-size : 0.7em;
+		font-size : 0.6em;
 		color : white;
 		
 		hr {
@@ -107,15 +104,24 @@ html{
 		margin-left : 3em;
 	}
 	
-	@media handeld, screen and (min-width: 680px) {
+	
+	
+	@media handheld, screen and (min-width: 680px) {	
+		.experience {
+			height : 50%;
+		}
+		
 		#container {
-			height : 70%;
+			height : 75%;
 			width : 650px;
 			overflow : auto;
 		}
-		
-		.experience {
-			height : 30%;
-		}
 	}	
+	
+	@media handheld, screen and (min-height: 800px) {		
+		.experience {
+			height : 40%;
+			font-size : 0.7em;
+		}
+	}
 }
