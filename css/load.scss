@@ -24,7 +24,7 @@ html{
 	margin : 0;
 	padding : 0 20px 0 0;
 	vertical-align : middle;
-	background : #3366FF;
+	background : #000000;
 
 	h2 {
 		margin : 0.3em 0em 0em 1em;
@@ -37,7 +37,6 @@ html{
 	}
 	
 	#container {
-		background : #2E5CE6;
 		margin : auto;
 		top : 0;
 		right : 0;
@@ -49,11 +48,12 @@ html{
 		height : 100%;
 		width : 100%;
 		overflow : auto;
+		background-image : url(../img/bg_load_cont.png);
 	}
 	
 	.experience {
 		height : 45%;
-		background : #1E3B93;
+		
 		margin : 5px;
 		border : 2px solid white;
 		border-radius : 5px;
@@ -92,24 +92,6 @@ html{
 	
 	
 	/* Hovers */
-	
-	.experience:hover{
-	
-		h2 {
-			zoom : 110%;
-		}
-		h3 {
-			zoom : 110%;
-		}
-		
-		.description {
-			zoom : 110%;
-		}
-		
-		.infos {
-			zoom : 110%;
-		}
-	}
 	
 	h2:hover {
 		color : #FFFF00;
@@ -152,7 +134,7 @@ html{
 		
 		.experience {
 			height : 40%;
-			font-size : 0.7em;
+			font-size : 0.75em;
 		}
 	}
 }
