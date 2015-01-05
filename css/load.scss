@@ -2,14 +2,20 @@
 # Scss file for load
 ---
 
+/* Add personnal font */
+
 @font-face {
     font-family: rpg_font;
     src: url(fonts/Early_GameBoy.ttf);
 }
 
+/* Setting base height for HTML */
+
 html{
 	height : 100%;
 }
+
+/* Divs and text */
 
 #load {
 	
@@ -24,18 +30,10 @@ html{
 		margin : 0.3em 0em 0em 1em;
 		font-size : 1em;
 	}
-	
-	h2:hover {
-		color : #FFFF00;
-	}
-	
+		
 	h3 {
 		margin : 0.3em 0em 0em 2em;
 		font-size : 0.8em;
-	}
-	
-	h3:hover {
-		color : #FFFF00;
 	}
 	
 	#container {
@@ -81,27 +79,56 @@ html{
 			padding: 0 0.25em;
 		}	
 	}
-		
+	
 	.infos {
 		color : #669900;
 		margin-top : 0.6em;
 		margin-left : 1em;
 	}
 	
-	.infos:hover {
-		color : #94B84D;
-	}
-	
 	.description {
 		margin-left : 5em;
+	}
+	
+	
+	/* Hovers */
+	
+	.experience:hover{
+	
+		h2 {
+			zoom : 110%;
+		}
+		h3 {
+			zoom : 110%;
+		}
+		
+		.description {
+			zoom : 110%;
+		}
+		
+		.infos {
+			zoom : 110%;
+		}
+	}
+	
+	h2:hover {
+		color : #FFFF00;
+	}
+	
+	h3:hover {
+		color : #FFFF00;
 	}
 	
 	.description:hover {
 		color : #FFFF00;
 	}
 	
-	
-	
+	.infos:hover {
+		color : #94B84D;
+	}
+		
+	/* Media Queries */
+		
 	@media handheld, screen and (min-width: 680px) {	
 		.experience {
 			height : 50%;
