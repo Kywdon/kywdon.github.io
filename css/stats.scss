@@ -70,15 +70,15 @@ html{
 }
 
 .statistique {
-	font-size : 2.2em;
-	margin-bottom : 0.42em;
+	font-size : 1.8em;
+	margin-bottom : 0.8em;
 }
 
 .info{
 	display:table-cell;
 	border:1px solid #FF00FF;
 	position : absolute;
-	font-size : 1.8em;
+	font-size : 1.4em;
 	margin-top : 4px;
 }
 
@@ -101,6 +101,7 @@ html{
 	width : 75%;
 	margin-top: 40px;
 	display:table;
+	font-size : 0.8em;
 }
 
 .line{
@@ -116,18 +117,25 @@ html{
 }
 
 #name {
-	margin-left : 10%;
+	margin-left : 8%;
 }
 
 #age {
-	margin-left : 47%;
+	margin-left : 45%;
 }
 
 #sexe {
-	margin-left : 75%;
+	margin-left : 73%;
 }
 
 /* Media Queries */
+
+	@media handheld, screen and (max-height: 700px){
+		#container {
+			margin-top : 2.5%;
+			margin-bottom : 2.5%;
+		}
+	}
 		
 	@media handheld, screen and (min-width: 900px) {
 	
@@ -137,7 +145,7 @@ html{
 		
 		#container {
 			width : 90%;
-			height : 700px;
+			max-height : 700px;
 			display : table;
 			position : absolute;
 			background:url(../img/fond_fallout_large.png);
@@ -145,7 +153,6 @@ html{
 		}
 		
 		.col {
-			padding-top:-50px;
 			width : 50%;
 			height : 100%;
 			display:table-cell;
@@ -183,6 +190,11 @@ html{
 		#sexe {
 			margin-left : 40%;
 		}
+		
+		.skill{
+			font-size : 15px;
+			margin-bottom : 4px;
+		}
 	}	
 	
 	@media handheld, screen and (min-width: 1080px) {
@@ -195,9 +207,4 @@ html{
 		}
 	}
 	
-	@media handheld, screen and (max-height: 700px){
-		#container {
-			margin-top : 2.5%;
-			margin-bottom : 2.5%;
-		}
-	}
+	
