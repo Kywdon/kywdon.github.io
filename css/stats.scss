@@ -2,7 +2,202 @@
 # Scss file for stats
 ---
 
+/* Add personnal font */
+
+@font-face {
+    font-family: apocalyptic_font;
+    src: url(fonts/28_Days_Later.ttf);
+}
+
+@font-face {
+    font-family: lcd_font;
+    src: url(fonts/pixelmix.ttf);
+}
+
+.font_apo {
+	font-family : apocalyptic_font;
+	color : #B28F00;
+	opacity : 0.6;
+}
+
+.font_lcd {
+	font-family : lcd_font;
+	color : #52CC52;
+}
+
+/* Setting base height for HTML */
+
+html{
+	height : 100%;
+	background : #000000;
+}
+
+/* Divs and text */
 
 #stats {
-
+	height : 1620px;
 }
+
+#container {
+	margin : auto;
+	top : 0;
+	right : 0;
+	bottom : 0;
+	left : 0;
+	border : 5px solid #FF3300;
+	width : 100%;
+	height : 100%;
+	background:url(../img/fond_fallout_2cell.png);
+	background-repeat:no-repeat;
+	background-size: 100% 1620px;		
+}
+
+.col {
+	width : 100%;
+	height : 50%;
+	border : 2px solid #0033CC;
+}
+
+#statistiques {
+	border : 2px solid #33CC33;
+	width : 50%;
+	margin-top : 60px;
+	margin-left : 6px;
+	top : 0;
+	right : 0;
+	bottom : 0;
+	left : 0;
+}
+
+.statistique {
+	font-size : 2.2em;
+	margin-bottom : 0.42em;
+}
+
+.info{
+	display:table-cell;
+	border:1px solid #FF00FF;
+	position : absolute;
+	font-size : 1.8em;
+	margin-top : 4px;
+}
+
+#loisirs{
+	border : 1px solid #FFFF00;
+	margin-top : 130px;
+	margin-left : 10%;
+	padding-left : 10px;
+}
+
+.loisir{
+	margin-top : 5px;
+	margin-bottom : 6px;
+}
+
+#skills{
+	border : 1px solid #00CC99;
+	height : 300px;
+	margin-left : 16%;
+	width : 75%;
+	margin-top: 40px;
+	display:table;
+}
+
+.line{
+	overflow:hidden;
+}
+
+.skill{
+	float:left;
+}
+
+.percent{
+	float:right;
+}
+
+#name {
+	margin-left : 10%;
+}
+
+#age {
+	margin-left : 47%;
+}
+
+#sexe {
+	margin-left : 75%;
+}
+
+/* Media Queries */
+		
+	@media handheld, screen and (min-width: 900px) {
+	
+		#stats{
+			height : 100%;	
+		}
+		
+		#container {
+			width : 90%;
+			height : 700px;
+			display : table;
+			position : absolute;
+			background:url(../img/fond_fallout_large.png);
+			background-size: 100% 100%;
+		}
+		
+		.col {
+			padding-top:-50px;
+			width : 50%;
+			height : 100%;
+			display:table-cell;
+		}
+		
+		#statistiques {
+			margin-top : 50px;
+			margin-left : 6%;
+			width : 40%;
+		}
+
+		.statistique {
+			font-size : 2.2em;
+			margin-bottom : 0.2em;
+		}
+		
+		#loisirs{
+			margin-top : 115px;
+			margin-left : 15%;
+		}
+
+		.loisir{
+			margin-top : 3px;
+			margin-bottom : 3px;
+		}
+		
+		#name {
+			margin-left : 9%;
+		}
+
+		#age {
+			margin-left : 27%;
+		}
+
+		#sexe {
+			margin-left : 40%;
+		}
+	}	
+	
+	@media handheld, screen and (min-width: 1080px) {
+		#stats{
+			background-size: 70% 700px;
+		}
+		
+		#container {
+			width : 70%;		
+		}
+	}
+	
+	@media handheld, screen and (max-height: 700px){
+		#container {
+			margin-top : 2.5%;
+			margin-bottom : 2.5%;
+		}
+	}

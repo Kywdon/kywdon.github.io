@@ -21,7 +21,7 @@
 
 			<div class="pure-u-1 pure-u-md-16-24" id="container">
 				{% for project in projects %}
-				<a class="popup-with-zoom-anim item{% cycle '', ' h2', '', '' %}{% cycle '', ' w2', '' %}" href="#{{ project.name | slugify }}">
+				<a class="popup-with-zoom-anim item{% cycle '', ' h3', '', '' %}{% cycle '', ' w1', '' %}" href="#{{ project.name | slugify }}">
 					<h1>{{ project.name }}</h1>
 				</a>
 				{% endfor %}

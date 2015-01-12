@@ -1,6 +1,3 @@
-- name : Patience
-  lvl : 4
-
 - name : Motivation
   lvl : 7
 
@@ -14,22 +11,10 @@
   lvl : 6
 
 - name : Communication
-  lvl : 7
-
-- name : Coopération
   lvl : 8
-
-- name : Ingéniosité
-  lvl : 5
 
 - name : Observation
   lvl : 7
 
 - name : Optimisme
   lvl : 10
-
-- name : Ouverture d'esprit
-  lvl : 8
-
-- name : Responsabilité
-  lvl : 6

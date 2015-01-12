@@ -32,3 +32,17 @@
   type : Réalisation vidéo
   video :
   description : "Cette vidéo fut réalisée dans le cadre de ma licence professionnelle. Un travail propre et précis qui nous a vallut nombreuses félicitaions par l'ensemble de l'équipe enseignante, du directeur de la plateforme technique, et de l'entreprise qui était très satisfaite de nos services"
+
+- name: Doublage sonore d'un court métrage
+  weblink :
+  hours : ?????
+  type : Création sonore
+  video :
+  description : "Pour mes cours de son à l'IUT de Chalon-sur-Saône, nous avons du doubler un extrait d'un court métrage qui était Vincent de Tim Burton. Certes ce n'est pas très très poussé, mais ce fut une de mes premières expériences dans le domaine du son ce qui est pour moi quelque chose d'assez marquant"
+
+- name: Vidéo Promotionnelle Valmold Services
+  weblink :
+  hours : Une trentaine d'heures à 6
+  type : Réalisation vidéo
+  video :
+  description : "Cette vidéo fut réalisée dans le cadre de ma licence professionnelle. Un travail propre et précis qui nous a vallut nombreuses félicitaions par l'ensemble de l'équipe enseignante, du directeur de la plateforme technique, et de l'entreprise qui était très satisfaite de nos services"

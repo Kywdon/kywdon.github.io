@@ -1,65 +1,44 @@
 - name: Game Design
   percent : 30
 
+- name: Scenarisation
+  percent : 70
+
 - name: Anglais
-  percent : 90
+  percent : 80
 
 - name: Espagnol
   percent : 40
 
-- name: Français
+- name: Francais
   percent : 100
 
 - name: Japonais
   percent : 20
 
-- name: Javascript
-  percent : 60
-
 - name: Jekyll
-  percent : 30
+  percent : 20
 
-- name: HTML
+- name: WEB (HTML / CSS / PHP / Javascript)
   percent : 70
-
-- name: CSS
-  percent : 60
 
 - name: SQL
   percent : 80
 
-- name: C#
+- name: Developpement applicatif (C++ / C# / VB)
   percent : 70
 
-- name: PHP
-  percent : 70
-
-- name: GIT
+- name: Versionning (GIT)
   percent : 60
-
-- name: VB
-  percent : 50
   
 - name: Office Suite
-  percent : 70
+  percent : 80
 
-- name: Unity3D
-  percent : 40
-
-- name: Wings3D
+- name: 3D (Blender / Wings3D)
   percent : 20
 
-- name: Blender
-  percent : 15
-
-- name: Photoshop
+- name: Design (Photoshop / Illustrator)
   percent : 30
 
-- name: Illustrator
-  percent : 35
-
-- name: Audition
-  percent : 30
-
-- name: Premiere
-  percent : 40 
+- name: Video & Audio (Premiere / Audition)
+  percent : 50 

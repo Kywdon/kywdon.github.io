@@ -55,6 +55,11 @@ $item-height: 8em;
                 font-size: 1.8em;
             }
         }
+		
+		&.h3, &.h3.w1 {
+			height: $item-height*3;
+            background: #FF6600;
+		}
 
         h1 {
             font-size: 1em;
