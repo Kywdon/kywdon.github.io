@@ -1,22 +1,28 @@
 ---
 # Scss file for succes
 ---
+
+// Importation des dépendanes
 @import "/css/libs/purecss.min.css";
 @import "/css/libs/purecss-grids-responsive.min.css";
 @import "/css/libs/magnific-popup.css";
 @import "/css/fixes.css";
 
+// Hauteur et largeur d'un carré minimum
 $item-width: 8em;
 $item-height: 8em;
 
 #succes{
+    // couleur de fond de la page
     background-color: #002F2F;
 
+    // Hauteur et largeur d'une case (synchronisé avec celle d'un carré minimum)
     .grid-sizer {
         width: $item-width;
         height: $item-height;
     }
 
+    // Css propre à un item de base
     .item {
         width: $item-width;
         height: $item-height;
@@ -27,10 +33,12 @@ $item-height: 8em;
         text-decoration: none;
         color: black;
 
+        // & = moi-même
         &:hover {
             opacity: 0.8;
         }
 
+        // donc moi-même avec la classe w1 ou w1.h1 en plus
         &.w1, &.w1.h1 {
             width: $item-width*1;
             background: #9C0;
