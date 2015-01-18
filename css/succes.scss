@@ -8,11 +8,26 @@
 @import "/css/libs/magnific-popup.css";
 @import "/css/fixes.css";
 
+/* Add personnal font */
+
+@font-face {
+    font-family: tetris_font;
+    src: url(fonts/UASQUARE.TTF);
+}
+
 // Hauteur et largeur d'un carré minimum
 $item-width: 8em;
 $item-height: 8em;
 
 #succes{
+
+			
+	.zoom-anim-dialog{
+			max-width : 60%;
+			background : #B2B2B2;
+			border : 3px double #151515;
+	}
+	
     // couleur de fond de la page
     background-color: #002F2F;
 
@@ -21,7 +36,7 @@ $item-height: 8em;
         width: $item-width;
         height: $item-height;
     }
-
+	
     // Css propre à un item de base
     .item {
         width: $item-width;
@@ -39,39 +54,57 @@ $item-height: 8em;
         }
 
         // donc moi-même avec la classe w1 ou w1.h1 en plus
-        &.w1, &.w1.h1 {
+        &.w1 {
             width: $item-width*1;
-            background: #9C0;
-        }
-        &.w2, &.w2.h1 {
-            width: $item-width*2;
-            background: #C09;
-        }
-
-        &.h1, &.h1.w1 {
-            height: $item-height*1;
-            background: #9C0;
-        }
-        &.h2, &.h2.w1 {
-            height: $item-height*2;
-            background: #C90;
-        }
-
-        &.h2.w2 {
-            background: #0C9;
-            h1 {
-                font-size: 1.8em;
-            }
         }
 		
-		&.h3, &.h3.w1 {
+        &.w2 {
+            width: $item-width*2;
+        }
+
+        &.h2 {
+            height: $item-height*2;
+            background: #C90;
+			&.w2 {
+				background : #66FFFF;
+			}
+        }
+		
+		&.h3{
 			height: $item-height*3;
             background: #FF6600;
 		}
-
-        h1 {
-            font-size: 1em;
-        }
-
+		
+		/*&.h3.w2{
+			box-shadow: 
+			8em -8em 0 0 yellow,
+			8em 0 0 0 #FF6600;
+			overflow: hidden;
+		}*/
     }
+	
+	.pro {
+	
+		font-family : tetris_font;
+
+		
+		&.title{
+			font-size : 2em;
+		}
+		&.type{
+			font-size : 1.6em;
+		}
+		&.time{
+			font-size : 1.1em;
+		}
+		&.descri{
+			font-size : 1.2em;
+		}
+		&.vid{
+			font-size : 1.1em;
+		}
+		&.weblink{
+			font-size : 1.4em;
+		}	
+	}
 }
