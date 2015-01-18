@@ -16,8 +16,8 @@
 - name: Japonais
   percent : 20
 
-- name: Jekyll
-  percent : 20
+- name: Unity3D
+  percent : 40
 
 - name: WEB (HTML / CSS / PHP / Javascript)
   percent : 70

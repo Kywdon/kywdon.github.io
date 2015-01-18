@@ -22,9 +22,9 @@
 
 	.font_lcd {
 		font-family : lcd_font;
-		color : #52CC52;
+		color : #398F39;
 	}
-
+	
 /* Setting base height for HTML */
 
 	html{
@@ -105,6 +105,10 @@
 		margin-top : 5px;
 		margin-bottom : 6px;
 	}
+	
+	.loisir:hover{
+		color : #52CC52;
+	}
 
 /* Player skills */
 	#skills{
@@ -116,9 +120,8 @@
 	}
 	
 	.skill{
-	float:left;
+		float:left;
 	}
-	
 	
 	.percent{
 		float:right;
@@ -127,6 +130,10 @@
 /* Used to create lines to set each percent in front of their respectiv skills */
 	.line{
 		overflow:hidden;
+	}
+	
+	.line:hover{
+		color : #52CC52;
 	}
 
 /* Media Queries */
