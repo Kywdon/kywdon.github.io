@@ -47,13 +47,16 @@ $item-height: 8em;
         box-sizing: border-box;
         text-decoration: none;
         color: black;
-
+		text-align : center;
+		
+		
         // & = moi-même
         &:hover {
             opacity: 0.8;
         }
 
         // donc moi-même avec la classe w1 ou w1.h1 en plus
+		
         &.w1 {
             width: $item-width*1;
         }
@@ -61,26 +64,51 @@ $item-height: 8em;
         &.w2 {
             width: $item-width*2;
         }
+		
+		&.h1 {
+			height: $item-height*1;
+			p{	
+				font-size : 0.8em;
+				width : 8em;
+				height : 3.8em;
+				margin : 6em 0 0 -1.75em;
+				-moz-transform: rotate(-45.0deg) translate(50%,0);  /* FF3.5+ */
+				-o-transform: rotate(-45.0deg) translate(50%,0);  /* Opera 10.5 */
+				-webkit-transform: rotate(-45.0deg) translate(50%,0);  /* Saf3.1+, Chrome */
+			}
+		}
 
         &.h2 {
             height: $item-height*2;
-            background: #C90;
-			&.w2 {
-				background : #66FFFF;
+            background: #66FFFF;
+			
+			p{
+				width : 16em;
+				height : 3.8em;
+				margin : 12.5em 0 0 -5em;
+				-moz-transform: rotate(-45.0deg) translate(50%,0);  /* FF3.5+ */
+				-o-transform: rotate(-45.0deg) translate(50%,0);  /* Opera 10.5 */
+				-webkit-transform: rotate(-45.0deg) translate(50%,0);  /* Saf3.1+, Chrome */
 			}
         }
 		
-		&.h3{
-			height: $item-height*3;
+		&.h4{
+			height: $item-height*4;
             background: #FF6600;
+			
+			p{	
+				width : 32em;
+				height : 8em;
+				margin : 27.75em 0 0 -8.75em;
+				-moz-transform: rotate(-90.0deg) translate(50%,0);  /* FF3.5+ */
+				-o-transform: rotate(-90.0deg) translate(50%,0);  /* Opera 10.5 */
+				-webkit-transform: rotate(-90.0deg) translate(50%,0);  /* Saf3.1+, Chrome */
+			}
 		}
 		
-		/*&.h3.w2{
-			box-shadow: 
-			8em -8em 0 0 yellow,
-			8em 0 0 0 #FF6600;
-			overflow: hidden;
-		}*/
+		&.z1, &.z2 {
+			visibility : hidden;
+		}	
     }
 	
 	.pro {
@@ -108,3 +136,22 @@ $item-height: 8em;
 		}	
 	}
 }
+	/* Media Queries */
+		
+	@media handheld, screen and (min-width: 680px) {
+	
+	#succes{
+		.item{
+			&.z1 {
+				background : #7E7E7E;
+				visibility : visible;
+			}
+			
+			&.z2 {
+				background : #585858;
+				visibility : visible;
+			}
+		}
+	}
+	}
+
