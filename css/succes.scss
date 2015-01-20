@@ -20,10 +20,27 @@ $item-width: 8em;
 $item-height: 8em;
 
 #succes{
+	
+	.pure-u-1{
+		margin-left : 4%;
+		overflow : hidden;
+	}
+	
+	.pure-g{
+		div {
+			min-height : 0%;
+		}
+	}
 
+	#container{
+		max-height : 800px;
+		overflow : hidden;
+	}
 			
 	.zoom-anim-dialog{
-			max-width : 60%;
+			max-height : 100%;
+			margin : 0 0 0 0;
+			max-width : 100%;
 			background : #B2B2B2;
 			border : 3px double #151515;
 	}
@@ -141,6 +158,26 @@ $item-height: 8em;
 	@media handheld, screen and (min-width: 680px) {
 	
 	#succes{
+	
+		.pure-u-1{
+			margin-left : 0;
+			overflow : normal;
+		}
+	
+		.pure-g {
+			div {
+				min-height : 100%;
+			}
+		}
+		
+		.zoom-anim-dialog{
+	
+			max-width : 60%;
+			background : #B2B2B2;
+			border : 3px double #151515;
+			
+		}
+		
 		.item{
 			&.z1 {
 				background : #7E7E7E;
