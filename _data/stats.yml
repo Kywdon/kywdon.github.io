@@ -1,20 +1,27 @@
 - name : Motivation
-  lvl : 7
+  short : MO
+  lvl : 07
 
-- name : Curiosité
-  lvl : 9
+- name : Curiosite
+  short : CU
+  lvl : 09
 
 - name : Ambition
-  lvl : 7
+  short : AM
+  lvl : 07
 
 - name : Autonomie
-  lvl : 6
+  short : AU
+  lvl : 06
 
 - name : Communication
-  lvl : 8
+  short : CO
+  lvl : 08
 
 - name : Observation
-  lvl : 7
+  short : OB
+  lvl : 07
 
 - name : Optimisme
+  short : OP
   lvl : 10

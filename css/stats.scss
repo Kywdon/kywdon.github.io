@@ -184,6 +184,27 @@
 	.d:hover {
 		color : #52CC52;
 	}
+	
+/* Informative bubbles */
+
+.info_stats span {
+   display: none;
+   position: relative;
+}
+.info_stats:hover {
+   background: none;
+   z-index: 1500;
+   cursor: help;
+}
+.info_stats:hover span {
+   display: inline;
+   position: absolute;
+   white-space: nowrap; 
+   background: #000000;
+   color : #B28F00;
+   font-family : apocalyptic_font;
+   border: 1px solid #B28F00;
+}
 
 /* Media Queries */
 	

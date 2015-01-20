@@ -1,10 +1,17 @@
+---
+# The 'stats' page
+---
+{% assign profile = site.data.profile %}
+{% assign statistiques = site.data.stats %}
+
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>Charger</title>
+		<title>Statistiques</title>
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="/css/stats.css">
@@ -16,18 +23,14 @@
 			<!-- Left column -->
 			<div class="col">
 				<!-- Age, Name, Sexe -->
-				<div id="name" class="info font_apo"> MATHIAS </div>
-				<div id="age" class="info font_apo"> AGE 20 </div>
-				<div id="sexe" class="info font_apo"> HOM </div>
-				<!-- Player stats -->
+				<div id="name" class="info font_apo"> {{ profile.firstname }} </div>
+				<div id="age" class="info font_apo"> {{ profile.age }} </div>
+				<div id="sexe" class="info font_apo"> {{ profile.sexe }} </div>
+				<!-- Player stats -->				
 				<div id="statistiques" class="font_apo">
-					<div class="statistique"> MO</div> 
-					<div class="statistique"> CU </div> 
-					<div class="statistique"> AM </div> 
-					<div class="statistique"> AU </div> 
-					<div class="statistique"> CO </div> 
-					<div class="statistique"> OB </div> 
-					<div class="statistique"> OP </div> 
+					{% for statistique in statistiques %}
+						<div class="statistique"><a class="info_stats">{{ statistique.short }}<span> {{ statistique.name }} </span></a></div>
+					{% endfor %}
 				</div>
 				<!-- Player activites -->
 				<div id="loisirs" class="font_lcd">
