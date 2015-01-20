@@ -15,6 +15,11 @@
     src: url(fonts/UASQUARE.TTF);
 }
 
+@font-face {
+    font-family: cube_font;
+    src: url(fonts/FORCED_SQUARE.TTF);
+}
+
 // Hauteur et largeur d'un carré minimum
 $item-width: 8em;
 $item-height: 8em;
@@ -42,7 +47,7 @@ $item-height: 8em;
 			height : 100%;
 			margin : 0 1% 0 1%;
 			max-width : 100%;
-			background : #B2B2B2;
+			background-color : #AD957D;
 			border : 3px double #151515;
 	}
 	
@@ -66,6 +71,7 @@ $item-height: 8em;
         text-decoration: none;
         color: black;
 		text-align : center;
+		font-family : cube_font;
 		
 		
         // & = moi-même
@@ -174,8 +180,6 @@ $item-height: 8em;
 		.zoom-anim-dialog{
 			height : 20%;
 			max-width : 60%;
-			background : #B2B2B2;
-			border : 3px double #151515;
 			margin-left : auto;
 			margin-right : auto;	
 		}
