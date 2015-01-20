@@ -16,30 +16,33 @@
 	</head>
 
     <body id="succes">
-
 		<div class="pure-g">
+			<!-- Left side -->
 			<div class="pure-u-1 pure-u-md-4-24"></div>
-		
+			<!-- Middle content -->
 			<div class="pure-u-1 pure-u-md-16-24" id="container">
+				<!-- Loop getting content in project and putting project name on box -->
 				{% for project in projects %}
 				<a class="popup-with-zoom-anim item{% cycle ' h1', ' h2', ' h4' %}{% cycle ' w1', ' w2', ' w1' %}" href="#{{ project.name | slugify }}">
 					<p>{{ project.name }}</p>			
 				</a>
 				{% endfor %}
+				<!-- Disabled grey box -->
 				<a class="item h1 w1 z1"></a>
 				<a class="item h4 w1 z2"></a>
+				<a class="item h2 w2 z2"></a>
 				<a class="item h1 w1 z1"></a>
 				<a class="item h1 w1 z1"></a>
 				<a class="item h2 w2 z1"></a>
 				<a class="item h1 w1 z1"></a>
-				<a class="item h2 w2 z2"></a>
-				<a class="item h1 w1 z2"></a>
-				<a class="item h4 w1 z1"></a>
 				<a class="item h1 w1 z2"></a>
 				<a class="item h1 w1 z1"></a>
+				<a class="item h1 w1 z1"></a>
+				<a class="item h1 w1 z2"></a>
+			<!-- Right side -->
 			<div class="pure-u-1 pure-u-md-4-24"></div>
 		</div>
-
+		<!-- Loop getting content from project and showing on popup box -->
 		{% for project in projects %}
 		<div id="{{ project.name | slugify }}" class="zoom-anim-dialog mfp-hide">
 			<p class="pro title">{{ project.name }}</p>
@@ -50,7 +53,6 @@
 			<p class="pro weblink"> Lien web : {{ project.weblink}} </p>
 		</div>
 		{% endfor %}
-
 		<script data-main="/js/succes" src="/js/libs/require.min.js"></script>
     </body>
 </html>

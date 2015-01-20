@@ -2,7 +2,8 @@
 # Scss file for succes
 ---
 
-// Importation des dépendanes
+/* Dependencies */
+
 @import "/css/libs/purecss.min.css";
 @import "/css/libs/purecss-grids-responsive.min.css";
 @import "/css/libs/magnific-popup.css";
@@ -20,47 +21,88 @@
     src: url(fonts/FORCED_SQUARE.TTF);
 }
 
-// Hauteur et largeur d'un carré minimum
+/* Minimal Height and Width of a square */
+
 $item-width: 8em;
 $item-height: 8em;
 
+/* General div */
+
 #succes{
 	
-	.pure-u-1{
-		margin-left : 4%;
-		overflow : hidden;
-	}
+	/* Overwriting imported CSS */
 	
-	.pure-g{
-		div {
-			min-height : 0%;
+		/*Center div on responsive css */
+		
+		.pure-u-1{
+			margin-left : 4%;
+			overflow : hidden;
 		}
-	}
-
-	#container{
-		max-height : 1500px;
-		overflow : hidden;
-	}
-			
-	.zoom-anim-dialog{
+		
+		.pure-g{
+			div {
+				min-height : 0%;
+			}
+		}
+		
+		/* CSS for Popup Box */
+		
+		.zoom-anim-dialog{
 			max-height : 100%;
 			height : 100%;
 			margin : 0 1% 0 1%;
 			max-width : 100%;
 			background-color : #AD957D;
 			border : 3px double #151515;
+		}
+	
+		.mfp-close-btn-in .mfp-close{
+			color : #C11919;
+		}
+		
+		.pro {
+			font-family : tetris_font;
+
+			&.title{
+				font-size : 2em;
+			}
+			&.type{
+				font-size : 1.6em;
+			}
+			&.time{
+				font-size : 1.1em;
+			}
+			&.descri{
+				font-size : 1.2em;
+			}
+			&.vid{
+				font-size : 1.1em;
+			}
+			&.weblink{
+				font-size : 1.4em;
+			}	
+		}
+	
+	/* Sets max height for responsive css */
+	
+	#container{
+		max-height : 1500px;
+		overflow : hidden;
 	}
 	
-    // couleur de fond de la page
+    /* General background color */
+	
     background-color: #002F2F;
 
-    // Hauteur et largeur d'une case (synchronisé avec celle d'un carré minimum)
+	/* Sizing an unit of used grid */
+	
     .grid-sizer {
         width: $item-width;
         height: $item-height;
     }
 	
-    // Css propre à un item de base
+    /* Item CSS */
+	
     .item {
         width: $item-width;
         height: $item-height;
@@ -73,13 +115,11 @@ $item-height: 8em;
 		text-align : center;
 		font-family : cube_font;
 		
-		
-        // & = moi-même
         &:hover {
             opacity: 0.8;
         }
 
-        // donc moi-même avec la classe w1 ou w1.h1 en plus
+        /* Specificity for each class */
 		
         &.w1 {
             width: $item-width*1;
@@ -91,6 +131,7 @@ $item-height: 8em;
 		
 		&.h1 {
 			height: $item-height*1;
+			
 			p{	
 				font-size : 0.8em;
 				width : 8em;
@@ -128,37 +169,13 @@ $item-height: 8em;
 				-o-transform: rotate(-90.0deg) translate(50%,0);  /* Opera 10.5 */
 				-webkit-transform: rotate(-90.0deg) translate(50%,0);  /* Saf3.1+, Chrome */
 			}
-		}
+		}	
 		
+		/* Hides z1 and z2 cells on responsive design */
 		&.z1, &.z2 {
 			visibility : hidden;
 		}	
     }
-	
-	.pro {
-	
-		font-family : tetris_font;
-
-		
-		&.title{
-			font-size : 2em;
-		}
-		&.type{
-			font-size : 1.6em;
-		}
-		&.time{
-			font-size : 1.1em;
-		}
-		&.descri{
-			font-size : 1.2em;
-		}
-		&.vid{
-			font-size : 1.1em;
-		}
-		&.weblink{
-			font-size : 1.4em;
-		}	
-	}
 }
 	/* Media Queries */
 		
