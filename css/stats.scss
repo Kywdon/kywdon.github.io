@@ -136,7 +136,33 @@
 	.percent{
 		float:right;
 	}
+	
+/* Bottom button */
+	.bot_button{
+		width : 100%;
+		font-size : 1.7em;
+		margin-top : 68%;
+		display : block;
+		white-space : nowrap;
+		font-weight : lighter;
+	}
 
+	.bot_button_img{
+		display : inline;
+	}
+	
+	#opt{
+		margin-left : 13%;
+	}
+	
+	#fait{
+		margin-left : 16%;
+	}
+	
+	#annu{
+		margin-left : 16%;
+	}
+	
 /* Used to create lines to set text on sides */
 	.line{
 		overflow:hidden;
