@@ -3,6 +3,7 @@
 ---
 {% assign profile = site.data.profile %}
 {% assign statistiques = site.data.stats %}
+{% assign skills = site.data.skills %}
 
 
 <!DOCTYPE html>
@@ -55,51 +56,11 @@
 			<div class="col">
 				<!-- Player skills -->
 				<div id="skills" class="font_lcd">
-					<div class="line">
-						<div class="g"> Game Design </div> <div class="d"> 30% </div>
-					</div>
-					<div class="line">
-						<div class="g"> Scenarisation </div> <div class="d"> 70% </div>
-					</div>
-					<div class="line">
-						<div class="g"> Anglais </div> <div class="d"> 80%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Espagnol </div> <div class="d"> 40%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Francais </div> <div class="d"> 100%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Japonais </div> <div class="d"> 20% </div>
-					</div>
-					<div class="line">
-						<div class="g"> Jekyll </div> <div class="d"> 20% </div>
-					</div>
-					<div class="line">
-						<div class="g"> WEB (HTML / CSS / PHP / Javascript) </div> <div class="d"> 70%</div>
-					</div>
-					<div class="line">
-						<div class="g"> SQL </div> <div class="d"> 80%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Developpement applicatif (C++ / C# / VB) </div> <div class="d">70%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Versionning (GIT) </div> <div class="d">60%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Office Suite </div> <div class="d">80%</div>
-					</div>
-					<div class="line">
-						<div class="g"> 3D (Blender / Wings3D) </div> <div class="d">20%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Design (Photoshop / Illustrator) </div> <div class="d">30%</div>
-					</div>
-					<div class="line">
-						<div class="g"> Video & Audio (Premiere / Audition) </div> <div class="d">50%</div>
-					</div>
+					{% for skill in skills %}
+						<div class="line">
+							<div class="g"> {{ skill.name }} </div> <div class="d"> {{ skill.percent }}% </div>
+						</div>
+					{% endfor %}
 				</div>
 				<!-- Bottom button -->
 				<div class="bot_button font_apo">
